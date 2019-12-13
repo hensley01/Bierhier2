@@ -32,12 +32,13 @@ nav a {
  a.tekst {
      display: inline-block;
     margin-right: 1000px;
-     vertical-align: top;
+     width: 50%;
 
 }
 
 article {
     vertical-align: top;
+    width: 50%;
  }
 #foto {
     position: absolute;
