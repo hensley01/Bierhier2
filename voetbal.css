@@ -15,23 +15,33 @@ body {
 footer  {
     background-color: gray;
     padding-top:30px;
+    margin: 0 auto;
 }
 
 
 div#wrapper, footer {
     padding: 20px;
     margin: auto;
-    width: 850px;
+    width: 1000px;
 }
 
 nav {
     background-color: rgb(255,102,0);
     padding-top: 60px;
-    width: 850px;
+    width: 1000px;
+
+}
+nav a {
+    text-decoration: none;
+    padding-right: 70px;
+    font-size: 25px;
+    color: white;
 }
 
 header {
     text-align: center;
+    padding-right: 50px;
+    text-decoration: none;
 }
 
 article {
@@ -74,4 +84,8 @@ section.icon {
 #tekst-uitslag {
     float: right;
     margin-right:308px;
+}
+footer a {
+    color: white;
+    text-decoration: none;
 }
